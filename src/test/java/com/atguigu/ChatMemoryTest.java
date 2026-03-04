@@ -1,5 +1,6 @@
 package com.atguigu;
 
+import com.atguigu.assistant.Assistant;
 import com.atguigu.assistant.MemoryChatAssistant;
 import com.atguigu.assistant.SeparateChatAssistant;
 import dev.langchain4j.community.model.dashscope.QwenChatModel;
