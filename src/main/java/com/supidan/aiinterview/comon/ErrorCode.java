@@ -1,5 +1,6 @@
 package com.supidan.aiinterview.comon;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
