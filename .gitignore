@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### 本地配置忽略 (新增) ###
+application-local.yml
+application-local.yaml
+application-local.properties
+*.log
+logs/
