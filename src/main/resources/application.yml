@@ -1,0 +1,40 @@
+spring:
+  profiles:
+    active: local    # 激活local环境
+
+  application:
+    name: ai-interview-skills-backend
+
+server:
+  port: 8080
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: isDeleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+# springdoc-openapi项目配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.supidan.aiinterview.controller
+jwt:
+  secret: NuQdkKHQjjHTjZjSZPmrM6oPDpEV2BKk0GC6Up9miiA
+  expiration: 604800
+
+dify:
+  base-url: http://localhost/v1
+  interview-agent-key: your-dify-interview-key
+  evaluate-agent-key: your-dify-evaluate-key
