@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.InterviewMessageMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.InterviewMessage">
+            <id property="id" column="id" />
+            <result property="sessionId" column="session_id" />
+            <result property="role" column="role" />
+            <result property="content" column="content" />
+            <result property="audioUrl" column="audio_url" />
+            <result property="inputType" column="input_type" />
+            <result property="asrConfidence" column="asr_confidence" />
+            <result property="emotionData" column="emotion_data" />
+            <result property="sequence" column="sequence" />
+            <result property="createTime" column="create_time" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,session_id,role,content,audio_url,input_type,
+        asr_confidence,emotion_data,sequence,create_time
+    </sql>
+</mapper>

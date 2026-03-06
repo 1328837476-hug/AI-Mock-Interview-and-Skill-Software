@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.InterviewReportMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.InterviewReport">
+            <id property="id" column="id" />
+            <result property="sessionId" column="session_id" />
+            <result property="userId" column="user_id" />
+            <result property="positionCode" column="position_code" />
+            <result property="generateStatus" column="generate_status" />
+            <result property="technicalScore" column="technical_score" />
+            <result property="depthScore" column="depth_score" />
+            <result property="logicScore" column="logic_score" />
+            <result property="matchingScore" column="matching_score" />
+            <result property="totalScore" column="total_score" />
+            <result property="strengths" column="strengths" />
+            <result property="weaknesses" column="weaknesses" />
+            <result property="suggestions" column="suggestions" />
+            <result property="isDeleted" column="is_deleted" />
+            <result property="createTime" column="create_time" />
+            <result property="updateTime" column="update_time" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,session_id,user_id,position_code,generate_status,technical_score,
+        depth_score,logic_score,matching_score,total_score,strengths,
+        weaknesses,suggestions,is_deleted,create_time,update_time
+    </sql>
+</mapper>

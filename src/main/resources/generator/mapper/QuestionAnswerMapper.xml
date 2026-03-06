@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.QuestionAnswerMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.QuestionAnswer">
+            <id property="id" column="id" />
+            <result property="questionId" column="question_id" />
+            <result property="answerLevel" column="answer_level" />
+            <result property="content" column="content" />
+            <result property="keyPoints" column="key_points" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,question_id,answer_level,content,key_points
+    </sql>
+</mapper>

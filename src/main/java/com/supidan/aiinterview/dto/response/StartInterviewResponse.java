@@ -1,6 +1,5 @@
 package com.supidan.aiinterview.dto.response;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
