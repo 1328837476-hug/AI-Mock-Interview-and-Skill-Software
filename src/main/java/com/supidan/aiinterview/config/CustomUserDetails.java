@@ -1,7 +1,7 @@
 package com.supidan.aiinterview.config;
 
 
-import com.supidan.aiinterview.domain.po.User;
+import com.supidan.aiinterview.entity.po.User;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

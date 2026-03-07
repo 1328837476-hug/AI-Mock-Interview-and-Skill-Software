@@ -1,4 +1,4 @@
-package com.supidan.aiinterview.dto.request;
+package com.supidan.aiinterview.entity.dto.request;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

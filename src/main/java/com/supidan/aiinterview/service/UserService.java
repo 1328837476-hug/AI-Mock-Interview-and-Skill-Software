@@ -1,12 +1,12 @@
 package com.supidan.aiinterview.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.supidan.aiinterview.domain.po.User;
-import com.supidan.aiinterview.dto.request.LoginRequest;
-import com.supidan.aiinterview.dto.request.RegisterRequest;
-import com.supidan.aiinterview.dto.request.UpdateProfileRequest;
-import com.supidan.aiinterview.dto.response.TokenResponse;
-import com.supidan.aiinterview.dto.response.UserInfoResponse;
+import com.supidan.aiinterview.entity.po.User;
+import com.supidan.aiinterview.entity.dto.request.LoginRequest;
+import com.supidan.aiinterview.entity.dto.request.RegisterRequest;
+import com.supidan.aiinterview.entity.dto.request.UpdateProfileRequest;
+import com.supidan.aiinterview.entity.dto.response.TokenResponse;
+import com.supidan.aiinterview.entity.dto.response.UserInfoResponse;
 
 /**
 * @author fink

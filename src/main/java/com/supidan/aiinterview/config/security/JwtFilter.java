@@ -1,7 +1,7 @@
 package com.supidan.aiinterview.config.security;
 
 import com.supidan.aiinterview.config.CustomUserDetails;
-import com.supidan.aiinterview.domain.po.User;
+import com.supidan.aiinterview.entity.po.User;
 import com.supidan.aiinterview.mapper.UserMapper;
 import com.supidan.aiinterview.util.JwtUtil;
 import io.jsonwebtoken.Claims;

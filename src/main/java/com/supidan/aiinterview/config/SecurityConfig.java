@@ -1,7 +1,7 @@
 package com.supidan.aiinterview.config;
 
 import com.supidan.aiinterview.config.security.JwtFilter;
-import com.supidan.aiinterview.domain.po.User;
+import com.supidan.aiinterview.entity.po.User;
 import com.supidan.aiinterview.mapper.UserMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

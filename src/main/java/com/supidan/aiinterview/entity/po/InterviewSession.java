@@ -1,4 +1,4 @@
-package com.supidan.aiinterview.domain.po;
+package com.supidan.aiinterview.entity.po;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;

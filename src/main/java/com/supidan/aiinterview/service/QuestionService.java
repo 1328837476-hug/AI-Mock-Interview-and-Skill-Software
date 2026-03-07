@@ -1,6 +1,6 @@
 package com.supidan.aiinterview.service;
 
-import com.supidan.aiinterview.domain.po.Question;
+import com.supidan.aiinterview.entity.po.Question;
 import java.util.List;
 
 public interface QuestionService {

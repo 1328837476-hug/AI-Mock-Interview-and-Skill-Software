@@ -2,13 +2,13 @@ package com.supidan.aiinterview.service.impl;
 
 
 import com.google.gson.Gson;
-import com.supidan.aiinterview.comon.ErrorCode;
-import com.supidan.aiinterview.domain.po.InterviewMessage;
-import com.supidan.aiinterview.domain.po.InterviewQuestionRecord;
-import com.supidan.aiinterview.domain.po.InterviewSession;
-import com.supidan.aiinterview.domain.po.Question;
-import com.supidan.aiinterview.dto.request.StartInterviewRequest;
-import com.supidan.aiinterview.dto.response.StartInterviewResponse;
+import com.supidan.aiinterview.entity.enums.ErrorCode;
+import com.supidan.aiinterview.entity.po.InterviewMessage;
+import com.supidan.aiinterview.entity.po.InterviewQuestionRecord;
+import com.supidan.aiinterview.entity.po.InterviewSession;
+import com.supidan.aiinterview.entity.po.Question;
+import com.supidan.aiinterview.entity.dto.request.StartInterviewRequest;
+import com.supidan.aiinterview.entity.dto.response.StartInterviewResponse;
 import com.supidan.aiinterview.event.InterviewFinishedEvent;
 import com.supidan.aiinterview.exception.BizException;
 import com.supidan.aiinterview.mapper.InterviewMessageMapper;

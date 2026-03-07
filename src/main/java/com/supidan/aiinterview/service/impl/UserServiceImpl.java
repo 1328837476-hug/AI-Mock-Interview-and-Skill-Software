@@ -1,15 +1,17 @@
 package com.supidan.aiinterview.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.supidan.aiinterview.comon.ErrorCode;
-import com.supidan.aiinterview.domain.po.User;
-import com.supidan.aiinterview.dto.request.*;
-import com.supidan.aiinterview.dto.response.*;
+import com.supidan.aiinterview.entity.enums.ErrorCode;
+import com.supidan.aiinterview.entity.dto.request.LoginRequest;
+import com.supidan.aiinterview.entity.dto.request.RegisterRequest;
+import com.supidan.aiinterview.entity.dto.request.UpdateProfileRequest;
+import com.supidan.aiinterview.entity.dto.response.TokenResponse;
+import com.supidan.aiinterview.entity.dto.response.UserInfoResponse;
+import com.supidan.aiinterview.entity.po.User;
 import com.supidan.aiinterview.exception.BizException;
 import com.supidan.aiinterview.mapper.UserMapper;
 import com.supidan.aiinterview.service.UserService;
 import com.supidan.aiinterview.util.JwtUtil;
-import jakarta.annotation.Resource;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.crypto.password.PasswordEncoder;

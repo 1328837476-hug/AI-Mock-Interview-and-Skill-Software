@@ -1,5 +1,7 @@
 package com.supidan.aiinterview.comon;
 
+import com.supidan.aiinterview.entity.enums.ErrorCode;
+
 public class ResultUtils {
 
     // 成功

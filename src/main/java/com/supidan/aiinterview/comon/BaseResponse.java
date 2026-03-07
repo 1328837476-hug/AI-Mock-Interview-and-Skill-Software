@@ -1,5 +1,6 @@
 package com.supidan.aiinterview.comon;
 
+import com.supidan.aiinterview.entity.enums.ErrorCode;
 import lombok.Data;
 import java.io.Serializable;
 

@@ -1,6 +1,6 @@
 package com.supidan.aiinterview.service.impl;
 
-import com.supidan.aiinterview.domain.po.Question;
+import com.supidan.aiinterview.entity.po.Question;
 import com.supidan.aiinterview.mapper.InterviewQuestionRecordMapper;
 import com.supidan.aiinterview.mapper.QuestionMapper;
 import com.supidan.aiinterview.service.QuestionService;

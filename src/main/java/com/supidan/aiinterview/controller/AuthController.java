@@ -3,9 +3,9 @@ package com.supidan.aiinterview.controller;
 
 import com.supidan.aiinterview.comon.BaseResponse;
 import com.supidan.aiinterview.comon.ResultUtils;
-import com.supidan.aiinterview.dto.request.LoginRequest;
-import com.supidan.aiinterview.dto.request.RegisterRequest;
-import com.supidan.aiinterview.dto.response.TokenResponse;
+import com.supidan.aiinterview.entity.dto.request.LoginRequest;
+import com.supidan.aiinterview.entity.dto.request.RegisterRequest;
+import com.supidan.aiinterview.entity.dto.response.TokenResponse;
 import com.supidan.aiinterview.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

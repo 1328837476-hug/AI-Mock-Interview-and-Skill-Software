@@ -2,7 +2,7 @@ package com.supidan.aiinterview.websocket;
 
 import com.google.gson.Gson;
 import com.supidan.aiinterview.ai.DifyClient;
-import com.supidan.aiinterview.domain.po.InterviewMessage;
+import com.supidan.aiinterview.entity.po.InterviewMessage;
 import com.supidan.aiinterview.mapper.InterviewMessageMapper;
 import com.supidan.aiinterview.mapper.QuestionMapper;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package com.supidan.aiinterview.dto.response;
+package com.supidan.aiinterview.entity.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

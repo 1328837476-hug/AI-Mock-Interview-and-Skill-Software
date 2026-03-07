@@ -1,7 +1,7 @@
 package com.supidan.aiinterview.exception;
 
 
-import com.supidan.aiinterview.comon.ErrorCode;
+import com.supidan.aiinterview.entity.enums.ErrorCode;
 import lombok.Getter;
 
 @Getter

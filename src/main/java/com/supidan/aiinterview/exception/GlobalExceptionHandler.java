@@ -2,7 +2,7 @@ package com.supidan.aiinterview.exception;
 
 
 import com.supidan.aiinterview.comon.BaseResponse;
-import com.supidan.aiinterview.comon.ErrorCode;
+import com.supidan.aiinterview.entity.enums.ErrorCode;
 import com.supidan.aiinterview.comon.ResultUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.BindException;

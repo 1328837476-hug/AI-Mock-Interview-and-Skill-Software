@@ -1,6 +1,5 @@
-package com.supidan.aiinterview.comon;
+package com.supidan.aiinterview.entity.enums;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
